@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    Label "LinuxAgent-New"
+    label "LinuxAgent-New"
         }
   stages {
     stage('Build') {
